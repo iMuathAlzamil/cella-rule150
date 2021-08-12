@@ -4,9 +4,8 @@ CPSC 335-03 Algorithms
 
 Project 1 - Cella 150 Project
 
-Team MAAS - Moaz Alzamil
-          - Raymond Esparza
-          - Andrew Shaker
+Name - Moaz Alzamil
+
 
 Intro
 
