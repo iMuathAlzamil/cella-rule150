@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Cella Rule 150 Program</title>
+		<link rel="stylesheet" href="assets/styles.css">
+		<script src="p5.js"></script>
+		<script src="cs-sketch.js"></script>
+	</head>
+	<body>
+		<h1 style="text-align:center;">Cella Rule 150 Program</h1>
+		<p>
+			Enter the Nth State To Generate: <input type="text" id="nvalue" name="nvalue" value="">
+			<input type="submit" onclick="generate();">
+		</p>
+	</body>
+	<script>
+		// Get the value of n from the input text box and store as the max level.
+		function generate()
+		{
+		    let n = document.getElementById("nvalue").value;
+		    setMaxLevel(n);
+		}
+	</script>
+</html>
